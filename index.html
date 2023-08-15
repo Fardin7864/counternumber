@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CounerNumber</title>
+        <!-- Tailwind links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="mx-auto">
     
+<div class="flex flex-col items-center">
+    <h1 class="text-4xl font-bold">This is CounterTable!!😁</h1>
+    <input type="number" name="" id="input" class="bg-slate-300 my-4 w-20 h-16 rounded text-center text-black font-bold text-2xl">
+</div>
+<div class="flex flex-row justify-center space-x-3">
+    <button id="duble" class="btn bg-indigo-400 rounded px-4 text-white ">Duble</button>
+    <button id="triple" class="btn bg-indigo-400 rounded px-4 text-white ">Triple</button>
+</div>
+
+<div class="flex flex-col items-center space-y-2 mt-3 font-bold">
+    <p>This is Duble: <span id="duble-fild"></span></p>
+    <p>This is Triple: <span id="triple-fild"></span></p>
+</div>
+
+
+<script src="index.js"></script>
 </body>
 </html>
